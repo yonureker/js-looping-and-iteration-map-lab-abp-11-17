@@ -9,4 +9,4 @@ function nametoAttributes(names){
     let lName = name.split(" ")[1];
     return {firstName: fName, lastName: lName};
   })
-}
+};
