@@ -2,10 +2,3 @@
 function lowerCaseDrivers(array){
   return array.map(x => x.toLowerCase())
 }
-
-function nameToAttributes (names) {
-  return names.map(name =>
-  let fName = name.split(" ")[0];
-  let lName = name.split(" ")[1];
-  return {firstName: fName, lastname: lName}
-})
