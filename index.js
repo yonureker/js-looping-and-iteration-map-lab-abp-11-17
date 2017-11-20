@@ -1,6 +1,8 @@
 // Code your solution in this file.
 function lowerCaseDrivers (array) {
-  return array.map(e => return e.toLowerCase())
+  return array.map(function(x){
+    return x.toLowerCase()
+  }
 }
 
 /*function nameToAttributes (array) {
